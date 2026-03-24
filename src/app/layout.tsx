@@ -13,8 +13,42 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "StudioSAHAJ | Global Architecture",
-  description: "Architecture that creates human environments, combining nature with the urban landscape.",
+  title: {
+    template: '%s | StudioSAHAJ',
+    default: 'StudioSAHAJ | Global Architecture & Interdisciplinary Design',
+  },
+  description: 'StudioSAHAJ is a global architectural firm rooted in Ahmedabad, specializing in contextual, sustainable, and human-centric design across the USA, Singapore, Switzerland, and China.',
+  keywords: ['Architecture', 'Sustainable Design', 'Global Architecture', 'Urbanism', 'Boutique Firm', 'Ahmedabad Architects', 'StudioSAHAJ'],
+  authors: [{ name: 'StudioSAHAJ' }],
+  creator: 'StudioSAHAJ',
+  publisher: 'StudioSAHAJ',
+  formatDetection: {
+    email: false,
+    address: true,
+    telephone: true,
+  },
+  openGraph: {
+    title: 'StudioSAHAJ | Global Architecture',
+    description: 'Architecture that emerges naturally from its context—effortless, rooted, and human.',
+    url: 'https://studiosahaj.com',
+    siteName: 'StudioSAHAJ',
+    images: [
+      {
+        url: '/hero.png',
+        width: 1200,
+        height: 630,
+        alt: 'StudioSAHAJ Architecture',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'StudioSAHAJ | Global Architecture',
+    description: 'Architecture that feels natural, lives lightly, and belongs effortlessly.',
+    images: ['/hero.png'],
+  },
 };
 
 export default function RootLayout({
