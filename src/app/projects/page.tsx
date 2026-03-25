@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: 'Modern Library',
-    location: 'Jerusalem',
+    location: 'Ahmedabad',
     image: '/archive.png',
     type: 'Institutional',
   },

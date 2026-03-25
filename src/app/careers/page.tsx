@@ -83,7 +83,7 @@ export default function Careers() {
             <div className="h-[1px] w-12 bg-black mx-auto" />
          </div>
          <p className="text-lg font-light text-neutral-500 leading-relaxed italic">
-            Headquartered in Somerville, MA with offices in Toronto, Jerusalem, Singapore and Shanghai, StudioSAHAJ is constantly engaged in the design of a diverse range of projects. Current work includes the expansion of Marina Bay Sands, mixed-use developments in the USA, and large-scale master plans globally.
+            Headquartered in Ahmedabad with offices in Toronto, Zurich, Singapore and Shanghai, StudioSAHAJ is constantly engaged in the design of a diverse range of projects. Current work includes the expansion of Marina Bay Sands, mixed-use developments in the USA, and large-scale master plans globally.
          </p>
          <div className="flex flex-wrap justify-center gap-12 pt-8">
             <div className="flex items-center gap-2 text-[10px] uppercase tracking-widest font-bold text-neutral-400">

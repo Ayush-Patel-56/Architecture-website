@@ -10,8 +10,8 @@ export default function Footer() {
           </h2>
           <div className="grid grid-cols-2 gap-8 text-[11px] tracking-[0.15em] uppercase text-neutral-500 font-medium">
             <div className="space-y-4">
+              <p>Ahmedabad</p>
               <p>Boston</p>
-              <p>Jerusalem</p>
               <p>Singapore</p>
             </div>
             <div className="space-y-4">
