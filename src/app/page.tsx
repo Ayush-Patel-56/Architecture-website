@@ -49,10 +49,10 @@ export default function Home() {
           className="absolute inset-0"
         >
           <Image
-            src="/hero.png"
-            alt="Hero Architectural Masterpiece"
+            src="/artboard.png"
+            alt="StudioSAHAJ Signature Architecture"
             fill
-            className="object-cover brightness-75"
+            className="object-cover brightness-75 transition-all duration-1000"
             priority
           />
         </motion.div>
@@ -167,10 +167,10 @@ export default function Home() {
           
           <div className="relative aspect-video lg:aspect-square">
              <Image 
-                src="/hero.png" 
-                alt="Architecture detail" 
+                src="/artboard.png" 
+                alt="StudioSAHAJ Architecture detail" 
                 fill 
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-1000 opacity-50"
+                className="object-cover grayscale hover:grayscale-0 transition-all duration-1000 opacity-60"
              />
           </div>
         </div>
