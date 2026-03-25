@@ -115,7 +115,7 @@ export default function Practice() {
               "To capture the essence of a place, one must understand its people, its history, and its light."
             </p>
             <div className="space-y-2">
-              <p className="text-xs uppercase tracking-[0.3em] font-bold">Moshe Safdie</p>
+              <p className="text-xs uppercase tracking-[0.3em] font-bold">Om Patel</p>
               <p className="text-[10px] uppercase tracking-[0.2em] text-neutral-400">Founder & Principal</p>
             </div>
          </div>

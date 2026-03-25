@@ -7,9 +7,9 @@ import Footer from '@/components/Footer';
 
 const leadership = [
   {
-    name: 'Moshe Safdie',
+    name: 'Om Patel',
     role: 'Founder & Principal',
-    image: '/moshe.png',
+    image: '/om.jpeg',
   },
   {
     name: 'Jaron Lubin',
@@ -56,12 +56,12 @@ export default function People() {
               transition={{ delay: index * 0.1, duration: 1, ease: 'easeOut' }}
               className="group cursor-pointer"
             >
-              <div className="aspect-[3/4] relative overflow-hidden mb-6 bg-neutral-100">
+              <div className="aspect-square relative overflow-hidden mb-6 bg-neutral-50 border border-neutral-100">
                 <Image 
                   src={person.image} 
                   alt={person.name} 
                   fill 
-                  className="object-cover transition-transform duration-[1.5s] group-hover:scale-110"
+                  className="object-cover object-top transition-all duration-[1.5s] ease-in-out group-hover:scale-105"
                 />
               </div>
               <div className="space-y-1">
